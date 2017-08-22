@@ -33,8 +33,6 @@ public class AppTest
      */
     public void testApp()
     {
-		Util a = new Util();
-		a.printMessage("!!!!!!!!!!!!!!!!!!!!!!");
-        assertTrue( true );
+        assertTrue(true);
     }
 }
