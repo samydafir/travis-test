@@ -2,6 +2,6 @@ language: java
 sudo: false
 script: 
 - mvn clean verify
-- bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash) -t 8e9b0f29-1f15-4da0-a07f-33b98497a5fb
 notifications:
  email: false
